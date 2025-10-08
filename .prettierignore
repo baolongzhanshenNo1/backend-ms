@@ -1,0 +1,20 @@
+# 依赖目录
+node_modules
+
+# 构建目录
+dist
+build
+
+# 缓存目录
+.vite
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env.local
+.env.*.local
+
+# 其他不需要格式化的文件
+package-lock.json
+yarn.lock

@@ -1,0 +1,9 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+Always add clear, concise comments to any code you generate or modify.
+For functions, include a docstring describing purpose, parameters, and return value.
+For complex logic, add inline comments explaining the 'why', not just the 'what'.

@@ -1,0 +1,35 @@
+{
+  "name": "backend-ms",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx",
+    "lint:fix": "eslint src --ext .js,.jsx --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,css,json,md}\""
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "echarts": "^6.0.0",
+    "element-plus": "^2.11.2",
+    "less": "^4.4.1",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "axios": "^1.12.2",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "mockjs": "^1.1.0",
+    "prettier": "^3.6.2",
+    "vite": "^7.1.2",
+    "vite-plugin-mock": "^3.0.2"
+  }
+}
